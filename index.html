@@ -11,24 +11,39 @@
             const R = Math.floor(Math.random() * 10) + 1;
             if (n1<=10 && n2<=10 && n3<=10 && R<=5) {
                 alert("Bene fai la seguente moltiplicazione: "+ n1 + " x " + n2 + " x " + n3);
+                setTimeout(function() {
+                alert("Ti conviene bere (skill issue)");
+                }, 5000);
                 R==-1;
             }else if(n1<=10 && n2<=10 && R>0){
                 alert("Bene fai la seguente moltiplicazione: "+ n1 + " x " + n2 );
+                setTimeout(function() {
+                alert("Ti conviene bere (skill issue)");
+                }, 5000);
                 R==-1;
             }else if(n1<=10 && n3<=10 && R>0){
                 alert("Bene fai la seguente moltiplicazione: "+ n1 + " x " + n3 );
+                setTimeout(function() {
+                alert("Ti conviene bere (skill issue)");
+                }, 5000);
                 R==-1;
             }else if(n2<=10 && n3<=10 && R>0){
                 alert("Bene fai la seguente moltiplicazione: "+ n2 + " x " + n3 );
+                setTimeout(function() {
+                alert("Ti conviene bere (skill issue)");
+                }, 5000);
                 R==-1;
             }else if(R>9){ 
                 alert("Si risolva l'equazione di Schrondinger per la buca di potenziale infinita unidimensionale");
                 setTimeout(function() {
                 alert("Ti conviene bere (skill issue)");
-                }, 3000);
+                }, 5000);
                 R==-1;
             }else if(R>=0){
                 alert("Fai la somma dei seguenti numeri: " + n1 + " + " + n2 + " + " + n3);
+                setTimeout(function() {
+                alert("Ti conviene bere (skill issue)");
+                }, 5000);
             }
         }
     </script>
@@ -39,3 +54,4 @@
 </body>
 
 </html>
+
